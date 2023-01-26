@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Premiere Application</string>
+    <string name="msgHello">Bonjour de mon application Android</string>
+    <string name="btnPhone">TÉLÉPHONER</string>
+    <string name="btnSMS">SMS</string>
+</resources>
