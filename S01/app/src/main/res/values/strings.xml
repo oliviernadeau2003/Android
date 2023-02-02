@@ -3,4 +3,13 @@
     <string name="msgHello">Hello from my Android App</string>
     <string name="btnPhone">TÉLÉPHONER</string>
     <string name="btnSMS">SMS</string>
+    <string name="validate">Validate</string>
+    <string name="v_rifier">Vérifier</string>
+    <string name="btnTextVerify">Vérifier</string>
+    <string name="msg_Game">Bonjour %s, devinez le nombre</string>
+    <plurals name="nbTries">
+        <item quantity="zero">Bonne chance</item>
+        <item quantity="one">%d essai</item>
+        <item quantity="other">%d essais</item>
+    </plurals>
 </resources>

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1C3D7E"
     android:clickable="true"
     tools:context=".MainActivity">
 
@@ -52,6 +51,18 @@
         app:layout_constraintBottom_toTopOf="@+id/btnSMS"
         app:layout_constraintEnd_toEndOf="@+id/btnSMS"
         app:layout_constraintStart_toStartOf="@+id/btnSMS" />
+
+    <EditText
+        android:id="@+id/editPlayerName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
